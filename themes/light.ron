@@ -1,0 +1,16 @@
+Theme(
+    name: "Apple Light",
+    wallpaper: None,
+    canvas: "#f5f5f7",
+    surface: "#ffffff",
+    surface_ghost: "#e8e8ed",
+    text_primary: "#1d1d1f",
+    text_secondary: "#707070",
+    text_muted: "#86868b",
+    accent: "#0071e3",
+    link: "#0066cc",
+    radius_card: 28.0,
+    radius_pill: 980.0,
+    glass_opacity: 0.55,
+    glass_blur: 12.0,
+)

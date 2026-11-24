@@ -1,0 +1,25 @@
+[package]
+name = "rxb-desktop"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "rxbrowser"
+path = "src/main.rs"
+
+[dependencies]
+keyboard-types = "0.8.3"
+rxb-core = { path = "../../crates/rxb-core" }
+rxb-shell = { path = "../../crates/rxb-shell" }
+servo = { workspace = true }
+winit = "0.30"
+euclid = "0.22"
+surfman = "0.14"
+eframe = { workspace = true }
+ron = "0.10"
+image = "0.25"
+url = "2.5"
+raw-window-handle = "0.6"
+
+

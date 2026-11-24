@@ -1,0 +1,16 @@
+Theme(
+    name: "Obsidian Dark",
+    wallpaper: None,
+    canvas: "#000000",
+    surface: "#1d1d1f",
+    surface_ghost: "#2c2c2e",
+    text_primary: "#f5f5f7",
+    text_secondary: "#a1a1a6",
+    text_muted: "#6e6e73",
+    accent: "#0071e3",
+    link: "#2997ff",
+    radius_card: 28.0,
+    radius_pill: 980.0,
+    glass_opacity: 0.45,
+    glass_blur: 16.0,
+)

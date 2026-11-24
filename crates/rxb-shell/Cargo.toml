@@ -1,0 +1,9 @@
+[package]
+name = "rxb-shell"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+egui = { workspace = true }
+eframe = { workspace = true }

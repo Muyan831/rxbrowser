@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = ["crates/rxb-core", "crates/rxb-shell", "apps/rxb-desktop"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+license = "proprietary"
+
+[workspace.dependencies]
+servo = "0.8.0"
+eframe = "0.31"
+egui = "0.31"
+
+[patch.crates-io]
+servo-net = { path = "vendor/servo-net" }
+
